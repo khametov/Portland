@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.header{
+	height: 160px;
+}
+.container {
+	border-bottom: solid 1px #f0f2f7;
+}
+.block__header {
+	width: 1170px;
+	margin: 0 auto;	
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-top__navigate {
+	margin: 0 auto;
+}
+.header-top__navigate ul{
+	display: flex;
+}
+.header-top__navigate li {
+	color: #343e5c;
+	float: left;
+	margin-right: 40px;
+	font-size: 14pt;
+
+}
+.header-top__navigate li:last-child{
+	margin: 0;
+}
+.header__cart {
+	display: flex;
+	align-items: center;
+}
+.header-cart__span {
+	margin-right: 5px;
+	margin-left: 3px;
+}
+.header-cart__price{
+	background-color: #e3e8f0;
+    padding: 5px 8px;
+    font-size: 0.6875rem;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.header__cart a {
+	align-items: center;
+	border:solid 2px #e3e8f0;
+	color: #343e5c;
+	border-radius: 15px;
+	padding: 6px 15px;
+	text-decoration: none;
+}
+
+.navigate__bottom {
+	display: flex;
+	width: 1170px;
+	margin: 0 auto;
+	align-items: center;
+
+}
+.navigate__bottom ul {
+	display: flex;
+}
+
+.navigate__bottom ul li{
+	text-decoration: none;
+	margin-right: 50px;
+}
+.navigate__bottom li:last-child{
+	margin: 0;
+}
+.navigate__bottom ul li a{
+	color: #b9bed1;
+	text-decoration: none;
+	font-size: 14pt;
+}
+.navigate__bottom a:hover {
+	color: #343e5c;
+}
+/*support_search*/
+.support, .search {
+	margin-left: auto;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navigate__support{
+    	padding-right: 20px;
+}
+.navigate__support a{
+	text-decoration: none;
+	font-size: 14pt;
+	color: #b9bed1;
+}
+.navigate__support a:hover {
+	color: #343e5c;
+}
+.form {
+	height: 70px;
+	border-left: solid #f0f2f7 1px;
+	display: flex;
+	align-items: center;
+	padding-left:  20px;
+}
+input {
+	border-radius: 5px; 	
+	height: 30px;
+	border:none; 
+	padding-left:9px;
+}
+/*main*/
+.main {
+	background-color: #1c1e23;
+	height: 500px;
+}
+.main__block{
+	width: 400px;
+	color: white;
+	float: left;
+	margin-top: 106px;
+	margin-left:  340px;
+	
+}
+.main__block h1 {
+	font-size: 42px;
+	font-weight: bold;
+}-
+
+.main__desription {
+	margin-top: 30px;
+	line-height: 20px;
+	text-align: justify;
+}
+.main-shop__phone  {
+	margin-top: 60px;
+
+}
+.main-shop__phone a {
+ 	background-color: #2754eb;
+    padding: 10px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.main-shop__phone a:hover {
+	background-color: #6ac762;
+}
+.main__phone {
+	background-image: url(../img/phone/iphone6.png);
+	background-position: 0 -65px;
+	width: 300px;
+	float: right;
+	margin-right: 310px;
+	height: 500px;
+	position: relative;
+	display: block;
+	
+}
